@@ -7,8 +7,8 @@
             <div class="ml-6 flex space-x-8">
               <nuxt-link
                 class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                :class="$route.name === 'a' ? activeClass : inactiveClass"
-                to="/a"
+                :class="$route.name === 'index' ? activeClass : inactiveClass"
+                to="/"
               >
                 a
               </nuxt-link>
